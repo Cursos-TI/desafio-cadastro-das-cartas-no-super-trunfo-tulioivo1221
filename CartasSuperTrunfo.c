@@ -1,61 +1,59 @@
 #include <stdio.h>
 
-int main() {
-   #include <stdio.h>
-   
-    int população1, população2, turísticos1, turísticos2;
-    float área1, área2, PIB1, PIB2;
-    char Estado1, Estado2, Código1 [5], Código2[5], cidade1[30], cidade2[30];
+int main () {
+    int populacao1, populacao2, turisticos1, turisticos2;
+    float area1, area2, PIB1, PIB2;
+    char estado1, estado2, codigo1, codigo2, cidade1[30], cidade2[30];
   
     printf("\nCarta 1\n");
    
     printf("Digite uma letra de A até H:\n");
    
     printf("Estado:\n");
-    scanf("%s", &Estado1);
+    scanf("%s", &estado1);
 
     printf("Código da cidade:\n");
-    scanf("%s", &Código1);
+    scanf("%s", &codigo1);
 
     printf("Nome da Cidade: \n");
     scanf("%s", &cidade1);
 
     printf("População:\n");
-    scanf("%d", &população1);
+    scanf("%d", &populacao1);
 
     printf("Área da cidade:\n");
-    scanf("%f", &área1);
+    scanf("%f", &area1);
 
     printf("PIB:\n");
     scanf("%f", &PIB1);
 
     printf("Número de pontos turísticos:\n");
-    scanf("%d", &turísticos1);
+    scanf("%d", &turisticos1);
 
     printf("\nCarta 2\n");
 
     printf("Digite uma letra de A até H:\n");
    
     printf("Estado:\n");
-    scanf("%s", &Estado2);
+    scanf("%s", &estado2);
 
     printf("Código da cidade:\n");
-    scanf("%s", &Código2);
+    scanf("%s", &codigo2);
 
     printf("Nome da Cidade:\n");
     scanf("%s", &cidade2);
 
     printf("População:\n");
-    scanf("%d", &população2);
+    scanf("%d", &populacao2);
 
     printf("Área da cidade:\n");
-    scanf("%f", &área2);
+    scanf("%f", &area2);
 
     printf("PIB:\n");
     scanf("%f", &PIB2);
 
     printf("Número de pontos turísticos: \n");
-    scanf("%d", &turísticos2);
+    scanf("%d", &turisticos2);
 
     return 0;
 
